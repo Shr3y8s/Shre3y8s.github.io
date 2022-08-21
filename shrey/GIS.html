@@ -28,17 +28,17 @@
     }
 
     body {
-      background-color: orange;
+      background-color: red;
       background-repeat: repeat;
       background-size: contain;
     }
   </style>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <a href="#" class="navbar-brand" style="color: red;">BEAST UNITED</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
@@ -49,13 +49,19 @@
 
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="#Menu1" class="nav-link">Menu 1</a>
+            <a href="#Menu1" class="nav-link">Step 1</a>
           </li>
           <li class="nav-item">
-            <a href="#Menu2" class="nav-link">Menu 2</a>
+            <a href="#Menu2" class="nav-link">Step 2</a>
           </li>
           <li class="nav-item">
-            <a href="#Menu3" class="nav-link">About</a>
+            <a href="#Menu3" class="nav-link">Step 3</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Menu4" class="nav-link">Step 4</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Menu5" class="nav-link">Questions?</a>
           </li>
         </ul>
       </div>
@@ -68,7 +74,8 @@
       <div class="d-sm-flex align-items-center justify-content-between">
         <div>
           <h1> Get In Shape For Dummies:<span class="text-warning"> 4-Step Guide </span></h1>
-          <h6 class="lead my-4">This step-by-step strategy guide will tell you everything you need to get healthy starting today.</h6>
+          <h6 class="lead my-4">This step-by-step strategy guide will tell you everything you need to get healthy
+            starting today.</h6>
           <button class="btn btn-primary rounded-pill btn-lg">Hover Over Me</button>
         </div>
         <img class="img-fluid w-25 d-none d-sm-block rounded-circle" src="picofshrey.jpg" alt="Myself" />
@@ -80,7 +87,7 @@
   </section>
 
   <!--Contact-->
-  
+
   <section class="bg-primary text-light p-4">
     <div class="container sidebar">
       <div class="d-md-flex justify-content-between align-items-center">
@@ -92,7 +99,7 @@
       </div>
     </div>
   </section>
- 
+
 
 
 
