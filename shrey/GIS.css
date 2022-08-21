@@ -15,3 +15,9 @@ body::before {
       width: 50%;
     }
   }
+
+  .runme{
+    width: 30.2222222222%;
+    float: right;
+
+  }
